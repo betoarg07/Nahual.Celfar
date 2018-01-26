@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="conL_1234567"/>
           <include name="Page_Title_CelFar"/>
         </methods>
       </class> <!-- NewTest -->

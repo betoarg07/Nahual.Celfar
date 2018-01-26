@@ -19,7 +19,7 @@ public class NewTest {
 	public String val;
 	
 	
-	
+	// esta funcion convierte el valor a probar al formato que usa la aplicacion Celfar
 	public String con(String f) {
 		
 		
@@ -40,6 +40,7 @@ public class NewTest {
 			
 	}
 	
+	//funcion que comprueba si la conversion de grados es correcta
 	public void convert (String x) {
 		
 		driver.get(baseUrl);
@@ -50,6 +51,7 @@ public class NewTest {
 		
 	}
 	
+	//funcion para casos de pruebas de numeros largos
 	public void convertLong (String x) {
 		
 		driver.get(baseUrl);
@@ -60,7 +62,7 @@ public class NewTest {
 		
 	}
 	
-  @Test
+ @Test
   public void Page_Title_CelFar() {
 	  
 	  driver.get(baseUrl);
